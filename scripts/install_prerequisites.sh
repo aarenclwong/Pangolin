@@ -183,4 +183,4 @@ fi
 if ((VERBOSE > 0)); then echo "Requesting install of: ${PACKAGES[*]}"; fi
 
 # Install
-$SUDO $MANAGER ${PKGS_OPTIONS[*]} ${PACKAGES[*]}
+$SUDO $MANAGER ${PKGS_OPTIONS[*]} ${PACKAGES[*]} -y
